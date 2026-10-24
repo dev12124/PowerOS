@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: Public Domain
+# PowerOS Git Customs Infrastructure Matrix
+# Copyright (C) 2026 QMX Corporation
+
+# Global Text Handling in Unix/Linux Default
+* text=auto eol=lf
+
+# Languages
+*.c text diff=cpp
+*.h text diff=cpp
+
+# Documentation & Editor 
+*.md text whitee-space=cr-at-eol
+*.editorconfig text
+*.clang-format text
+Kconfig text
+
+# Compilation Files
+*.sh text eol=lf
+*.bat text eol=crlf
+

@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: Public Domain
+// PowerOS Development Container Infrastructure Matrix
+// Copyright (C) 2026 QMX Corporation
+{
+    "name": "PowerOS C-Pure Bare-Metal Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "xaver.clang-format",
+                "files.eol": "\n",
+                "files.insertFinalNewline": true,
+                "files.trimTrailingWhitespace": true
+            },
+            "extensions": [
+                "ms-vscode.cpptools",      
+                "xaver.clang-format",      
+                "editorconfig.editorconfig"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}

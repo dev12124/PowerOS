@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: Public Domain
+# PowerOS Git Ignore Matrix
+# Copyright (C) 2026 QMX Corporation
+
+# Build Artifacts and Binary Outputs
+*.bin
+*.elf
+*.o
+*.obj
+*.sys
+*.iso
+*.img
+
+# Compiler and Linker Temporary Files
+*.map
+*.sym
+*.d
+build/
+out/
+dist/
+
+# Development Environment & OS Garbage
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup and Temporary Files
+*.bak
+*.tmp
+*~
